@@ -1,0 +1,263 @@
+@media (max-width:390px) {
+
+    :root{
+        --myColor:  rgb(143, 122, 8);
+    }    
+
+    header{
+        align-items: start;
+        position: absolute;
+
+        nav{
+            background-color: var();
+            
+            & ul{
+                flex-direction: column;
+                display: none;
+                /* width: 50%;
+                left: -100%; */
+            }
+
+            /* & ul:active{
+                display: block;
+            } */
+
+            .barss i{
+                display: block;
+                font-size: 2em;
+            }
+        }
+    }
+
+    #body{
+        flex-direction: column-reverse;
+
+        & .cont2{
+            margin-top: 3em;
+        }
+    }
+
+    #body1{
+        flex-wrap: wrap;
+        margin-top: 7em;
+
+        & .about{
+            /* align-items: center; */
+            
+            & h2{
+                font-size: 2.5em;
+            }
+
+            & p{
+                width: 100%;
+                padding: 0.3em 0;
+                letter-spacing: 1.4px;
+            }
+
+            & .inform{
+                /* font-size: 1.2em; */
+
+                & .info{
+                    width: 70%;
+                    gap: 0.4em;
+
+                }
+
+                & .info, .infos{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    #body2{
+
+        & .disp{
+            flex-direction: column;
+
+            & .serv{
+                width: 100%;
+            }
+        }
+    }
+
+    #body3{
+
+        & p{
+            text-align: center;
+            letter-spacing: 1.6px;
+        }
+    }
+
+    #body4{
+        justify-content: center;
+
+        & p{
+            text-align: center;
+            letter-spacing: 1.6px;
+        }
+
+        & .meters{
+            flex-direction: column;
+
+            & .meter{
+
+                & meter{
+                    width: 20em;
+                }
+            }
+        }
+    }
+
+    #body5{
+        justify-content: center;
+
+        & p{
+            text-align: center;
+            letter-spacing: 1.6px;
+        }
+
+        & .shows{
+            margin-top: 1em;
+            flex-direction: column;
+        }
+    }
+
+    #body6{
+        justify-content: center;
+
+        & p{
+            text-align: center;
+            letter-spacing: 1.8px;
+        }
+
+        & .blogs{
+            flex-direction: column;
+
+            & .blog{
+                
+                & small{
+                    font-size: 1em;
+                }
+
+                & h4{
+                    font-size: 1.1em;
+                }
+
+                & p{
+                    margin-top: 1em;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #body7{
+        justify-content: center;
+        align-items: center;
+        
+        & .play1{
+            justify-content: center;
+
+            & h2{
+                text-align: center;
+            }
+
+            & small{
+                width: 94%;
+                font-size: 1em;
+                letter-spacing: 1.8px;
+            }
+
+            & button{
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    #body8{
+        justify-content: center;
+
+        & p{
+            font-size: 1.1em;
+        }
+
+        & .location{
+            flex-direction: column;
+
+            & i{
+                font-size: 2.5em;
+            }
+
+            & h4{
+                font-size: 2em;
+            }
+
+            & p{
+                font-size: 1.3em;
+            }
+            
+        }
+
+        & .links{
+            flex-direction: column;
+
+            & h2{
+                font-size: 2em;
+            }
+
+            & .flex1{
+                flex-direction: column;
+                width: 100%;
+                padding: 0 0.4em ;
+
+                & .about{
+                    width: 100%;
+                    margin-bottom: 2em;
+
+                    
+                }
+            }
+
+            & .flex2{
+                width: 100%;
+                flex-direction: column;
+                padding: 0 1em;
+
+                & .serv{
+                    width: 100%;
+                    margin-top: 2em;
+                }
+
+                & .have{
+                    margin-top: 1em;
+                    width: 100%;
+
+                    & .adres{
+                        flex-direction: column;
+                        width: 100%;
+                    }
+
+                    & .phone{
+                        flex-direction: column;
+                        align-items: start;
+                        padding-top: 1em;
+
+                        & p{
+                            font-size: 1.3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .end{
+        text-align: center;
+    }
+
+    .care{
+        font-size: 1.9em;
+    }
+    
+}
